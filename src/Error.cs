@@ -44,7 +44,7 @@ public readonly record struct Error
     /// </summary>
     /// <param name="code">The unique error code.</param>
     /// <param name="description">The error description.</param>
-    /// <param name="attributes">Optional attrubutes.</param>
+    /// <param name="attributes">Optional attributes.</param>
     public static Error Failure(
         string code = "General.Failure",
         string description = "A failure has occurred.",
@@ -56,7 +56,7 @@ public readonly record struct Error
     /// </summary>
     /// <param name="code">The unique error code.</param>
     /// <param name="description">The error description.</param>
-    /// <param name="attributes">Optional attrubutes.</param>
+    /// <param name="attributes">Optional attributes.</param>
     public static Error Unexpected(
         string code = "General.Unexpected",
         string description = "An unexpected error has occurred.",
@@ -68,7 +68,7 @@ public readonly record struct Error
     /// </summary>
     /// <param name="code">The unique error code.</param>
     /// <param name="description">The error description.</param>
-    /// <param name="attributes">Optional attrubutes.</param>
+    /// <param name="attributes">Optional attributes.</param>
     public static Error Validation(
         string code = "General.Validation",
         string description = "A validation error has occurred.",
@@ -80,7 +80,7 @@ public readonly record struct Error
     /// </summary>
     /// <param name="code">The unique error code.</param>
     /// <param name="description">The error description.</param>
-    /// <param name="attributes">Optional attrubutes.</param>
+    /// <param name="attributes">Optional attributes.</param>
     public static Error Conflict(
         string code = "General.Conflict",
         string description = "A conflict error has occurred.",
@@ -92,7 +92,7 @@ public readonly record struct Error
     /// </summary>
     /// <param name="code">The unique error code.</param>
     /// <param name="description">The error description.</param>
-    /// <param name="attributes">Optional attrubutes.</param>
+    /// <param name="attributes">Optional attributes.</param>
     public static Error NotFound(
         string code = "General.NotFound",
         string description = "A 'Not Found' error has occurred.",
@@ -106,7 +106,7 @@ public readonly record struct Error
     /// <param name="type">An integer value which represents the type of error that occurred.</param>
     /// <param name="code">The unique error code.</param>
     /// <param name="description">The error description.</param>
-    /// <param name="attributes">Optional attrubutes.</param>
+    /// <param name="attributes">Optional attributes.</param>
     public static Error Custom(
         int type,
         string code,
